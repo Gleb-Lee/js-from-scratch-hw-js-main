@@ -2,15 +2,15 @@
 // Результат присвойте переменной sum
 
 // your code
-let sum
+let sum = 0;
 let i = 0;
-let result = 0
 
-while(i < 1){
-    result += i;
+
+while(i <= 20){
+    sum += i;
     i++;
 }
 
-console.log(result)
+console.log(sum)
 
 
