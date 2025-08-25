@@ -19,10 +19,8 @@ let isAccess
 
 if((isAdmin == true || isVerifiedUser == true) && (hasSpecialPermission == true || hasTemporaryPass == true)){
     isAccess = true;
-    window.alert('Успешно')
 } else {
     isAccess = false;
-    window.alert("Отказано")
 }
 
 console.log(isAccess)
