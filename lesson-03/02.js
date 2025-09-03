@@ -6,10 +6,10 @@ let number1 = 2
 
 function isEven() {
     let parity
-    if(number1 %2 !== 0){
-        parity = false
-    } else {
+    if(number1 %2 === 0){
         parity = true
+    } else {
+        parity = false
     }
     console.log(parity)
     return parity
