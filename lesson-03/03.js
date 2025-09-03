@@ -1,8 +1,8 @@
 // Разработайте функцию findLargest, которая принимает три числа и возвращает наибольшее из них.
 
-let number1 = 3
-let number2 = 67
-let number3 = 578
+let number1 = 1
+let number2 = 2
+let number3 = 3
 
 
 

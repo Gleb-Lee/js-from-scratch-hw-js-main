@@ -1,7 +1,7 @@
 // Напишите функцию calculateAverage, которая принимает 2 числа и возвращает их среднее арифметическое
 
-let number1 = 6
-let number2 = 993
+let number1 = 10
+let number2 = 20
 
 function calculateAverage() {
     let result = (number1 + number2) /2
